@@ -1,0 +1,17 @@
+body {
+  background-color: #1d2634;
+  color: #9e9ea4;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Dashboard {
+  margin: 20px;
+}
+
+.Products {
+  margin: 20px;
+}
+
+.Orders {
+  margin: 20px;
+}
