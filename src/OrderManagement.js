@@ -46,7 +46,6 @@ const OrderManagement = () => {
                     <TableCell>{order.orderDate}</TableCell>
                     <TableCell>{order.status}</TableCell>
                     <TableCell>
-                      <Button class="btn btn-success">View Details</Button>
                       <Button
                         class="btn btn-primary"
                         onClick={() => handleEdit(order.id)}
@@ -62,7 +61,7 @@ const OrderManagement = () => {
                       </Button>
                     </TableCell>
                   </TableRow>
-                )
+                ),
               )}
             </TableBody>
           </Table>
@@ -87,7 +86,7 @@ const OrderManagement = () => {
             ...o,
             status: status,
           }
-        : o
+        : o,
     );
     setOrders(newOrder);
     setUpdateState(-1);
